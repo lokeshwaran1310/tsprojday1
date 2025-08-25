@@ -138,6 +138,23 @@ Modern Web Browser
    - Click "Basic Calculator" for everyday arithmetic
    - Click "Scientific Calculator" for advanced functions
 
+## 🚀 Live Demo
+
+🎯 **Try it now!** Experience the dual-mode calculator in action:
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-667eea?style=for-the-badge&logo=github&logoColor=white)](https://lokeshwaran1310.github.io/tsprojday1/tsProj1p2/main.html)
+
+**[👉 Click here to access the live calculator suite](https://lokeshwaran1310.github.io/tsprojday1/tsProj1p2/main.html)**
+
+### Demo Features
+- ✅ Interactive mode selection (Basic/Scientific)
+- ✅ Full arithmetic and scientific operations
+- ✅ Real-time calculations and error handling
+- ✅ Responsive design across all devices
+- ✅ Modern gradient UI with smooth animations
+
+*No installation required - runs directly in your browser!*
+
 ## 🏢 Project Architecture
 
 ```
