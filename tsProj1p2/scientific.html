@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div id="result">0</div>
+    <div class="row">
+      <button class="sci-btn" onclick="scientific('sin')">sin</button>
+      <button class="sci-btn" onclick="scientific('cos')">cos</button>
+      <button class="sci-btn" onclick="scientific('tan')">tan</button>
+      <button class="sci-btn" onclick="scientific('sqrt')">√</button>
+    </div>
+    <div class="row">
+      <button class="sci-btn" onclick="scientific('log')">log</button>
+      <button class="sci-btn" onclick="scientific('ln')">ln</button>
+      <button class="sci-btn" onclick="scientific('pow')">x²</button>
+      <button class="sci-btn" onclick="scientific('pi')">π</button>
+    </div>
+    <div class="row">
+      <button class="sci-btn" onclick="append('(')">(</button>
+      <button class="sci-btn" onclick="append(')')">)</button>
+      <button class="sci-btn" onclick="scientific('exp')">exp</button>
+      <button class="sci-btn" onclick="backspace()">⌫</button>
+    </div>
+
+ <div class="row">
+      <button onclick="append('7')">7</button>
+      <button onclick="append('8')">8</button>
+      <button onclick="append('9')">9</button>
+      <button onclick="append('/')">÷</button>
+    </div>
+    <div class="row">
+      <button onclick="append('4')">4</button>
+      <button onclick="append('5')">5</button>
+      <button onclick="append('6')">6</button>
+      <button onclick="append('*')">×</button>
+    </div>
+    <div class="row">
+      <button onclick="append('1')">1</button>
+      <button onclick="append('2')">2</button>
+      <button onclick="append('3')">3</button>
+      <button onclick="append('-')">−</button>
+    </div>
+    <div class="row">
+      <button onclick="append('0')">0</button>
+      <button onclick="append('.')">.</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="append('+')">+</button>
+    </div>
+    <div class="row">
+      <button class="clear-btn" onclick="clearAll()">Clear</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
