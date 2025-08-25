@@ -256,7 +256,7 @@
 
 ### 🌐 **Experience the Games Online**
 
-**🔗 [Play EPS Game Hub Live](https://your-demo-url.com)**
+**🔗 [Play EPS Game Hub Live](https://lokeshwaran1310.github.io/tsprojday1/tsProject2/html/gamehub.html)**
 
 *Click the link above to experience all four games directly in your browser!*
 
