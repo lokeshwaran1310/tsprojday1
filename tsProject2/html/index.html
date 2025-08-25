@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penalty Shootout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Football Field -->
+  <div class="field">
+    
+    <!-- Goalpost -->
+    <div class="goal">
+      <div class="goalpost">
+        <div class="crossbar"></div>
+        <div class="left-post"></div>
+        <div class="right-post"></div>
+        <div class="net"></div>
+      </div>
+      
+      <!-- Goalkeeper -->
+      <div class="keeper" id="keeper"></div>
+    </div>
+    
+    <!-- Football Ball -->
+    <div class="ball" id="ball"></div>
+    
+    <!-- Penalty Spot -->
+    <div class="penalty-spot"></div>
+    
+    <!-- Scoreboard -->
+    <div class="scoreboard">
+      <h2>Goals: <span id="score">0</span></h2>
+      <h3>Attempts: <span id="attempts">0</span>/5</h3>
+    </div>
+    
+    <!-- Power Meter -->
+    <!-- <div class="power-meter" id="powerMeter">
+      <div class="power-label">POWER</div>
+      <div class="power-bar">
+        <div class="power-fill" id="powerFill"></div>
+      </div>
+    </div> -->
+    
+    <!-- Aiming Crosshair -->
+    <div class="crosshair" id="crosshair"></div>
+    
+    <!-- Instructions -->
+    <div class="instructions" id="instructions">
+      <p>Step 1: Click to set target, Step 2: Click ball to shoot!</p>
+    </div>
+    
+    <!-- Game Over Screen -->
+    <div class="game-over" id="gameOver">
+      <h2>Game Over!</h2>
+      <p>Final Score: <span id="finalScore">0</span>/5</p>
+      <button onclick="resetGame()">Play Again</button>
+    </div>
+    
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

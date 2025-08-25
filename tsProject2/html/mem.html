@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Match Game</title>
+  <link rel="stylesheet" href="stylemem.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Memory Match Game</h1>
+    <div class="score-board">
+      <div class="score-item">
+        <span class="label">Matches:</span>
+        <span id="matches">0</span>
+      </div>
+      <div class="score-item">
+        <span class="label">Moves:</span>
+        <span id="moves">0</span>
+      </div>
+    </div>
+    
+    <div class="game-board" id="gameBoard"></div>
+    
+    <div class="status-container">
+      <p id="status">Find all the pairs!</p>
+    </div>
+    
+    <!-- Found Names Display -->
+    <div class="found-names" id="foundNames">
+      <h3>Found Friends:</h3>
+      <div class="names-list" id="namesList"></div>
+    </div>
+    
+    <!-- Match Animation -->
+    <div class="match-popup" id="matchPopup"></div>
+  </div>
+  
+  <script src="scriptmem.js" defer></script>
+</body>
+</html>
