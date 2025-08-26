@@ -9,8 +9,6 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Math](https://img.shields.io/badge/Math-FF6B6B?style=for-the-badge&logo=wolfram&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
-![Calculator Suite Demo](https://via.placeholder.com/700x350/667eea/white?text=Advanced+Calculator+Suite)
-
 *Dual-mode calculator supporting both everyday arithmetic and advanced scientific operations*
 
 </div>
